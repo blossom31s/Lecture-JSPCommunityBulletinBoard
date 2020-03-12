@@ -113,7 +113,7 @@
 			<%
 				} if(bbsDAO.nextPage(pageNumber + 1)) {
 			%>
-				<a href="bbs.jsp?pageNumber=<%= pageNumber + 1 %>" class="btn btn-success btn-arrow-left">다음</a>
+				<a href="bbs.jsp?pageNumber=<%= pageNumber + 1 %>" class="btn btn-success btn-arrow-right">다음</a>
 			<%
 				}
 			%>
