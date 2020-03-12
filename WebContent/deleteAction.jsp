@@ -22,8 +22,7 @@
 			script.println("alert('로그인을 하세요.')");
 			script.println("location.href = 'login.jsp'");
 			script.println("</script>");
-		} 
-
+		}
 		int bbsID = 0;
 		if(request.getParameter("bbsID") != null) {
 			bbsID = Integer.parseInt(request.getParameter("bbsID"));
