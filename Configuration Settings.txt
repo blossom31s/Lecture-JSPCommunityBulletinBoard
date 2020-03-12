@@ -7,7 +7,7 @@ MySQL : 8.0.19
 MySQL Connector/J : 8.0.19
 
 # MySQL Database
-// Database Name : bbs
+// Database Name : BBS
 CREATE TABLE USER (
   userID VARCHAR(20),
   userPassword VARCHAR(20),
