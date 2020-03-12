@@ -6,7 +6,8 @@ Bootstrap : 4.4.1
 MySQL : 8.0.19
 MySQL Connector/J : 8.0.19
 
-# Database
+# MySQL Database
+// Database Name : bbs
 CREATE TABLE USER (
   userID VARCHAR(20),
   userPassword VARCHAR(20),
