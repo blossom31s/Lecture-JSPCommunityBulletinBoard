@@ -83,7 +83,7 @@ public class BbsDAO {
 				bbs.setUserID(rs.getString(3));
 				bbs.setBbsDate(rs.getString(4));
 				bbs.setBbsContent(rs.getString(5));
-				bbs.setBbsAvailable(rs.getInt(1));
+				bbs.setBbsAvailable(rs.getInt(6));
 				list.add(bbs);
 			}
 		} catch (Exception e) {
